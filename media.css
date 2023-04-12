@@ -1,0 +1,25 @@
+@media (max-width: 580px) {
+  .link_enter {
+    width: -webkit-fill-available;
+    text-align: center;
+  }
+  #sound {
+    display: none;
+  }
+  .footer {
+    width: 100%;
+    text-align: center;
+  }
+  .logo {
+    left: 40%;
+  }
+}
+
+@media (min-width: 580px) {
+  .footer {
+    padding-left: 40px;
+  }
+  input {
+    flex: none !important;
+  }
+}
